@@ -1,9 +1,9 @@
 [{
-        assetId: "p1",
-        name: "sc8_base_rvt",
-        hasChildren: false
+        "assetId": "p1",
+        "name": "sc8_base_rvt",
+        "hasChildren": false
     }, {
-        assetId: "p2",
-        name: "sc12mc_pmk_svt_c20",
-        hasChildren: false
+        "assetId": "p2",
+        "name": "sc12mc_pmk_svt_c20",
+        "hasChildren": false
     }]
