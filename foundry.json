@@ -1,9 +1,9 @@
 [{
-        assetId: "f1",
-        name: "TSMC",
-        hasChildren: true
+        "assetId": "f1",
+        "name": "TSMC",
+        "hasChildren": true
     }, {
-        assetId: "f2",
-        name: "SAMSUNG",
-        hasChildren: true
+        "assetId": "f2",
+        "name": "SAMSUNG",
+        "hasChildren": true
     }]
