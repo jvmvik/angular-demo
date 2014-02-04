@@ -1,7 +1,7 @@
 [{
         "assetId": "t1",
         "name": "CLN28HPM",
-        "hasChildren: true
+        "hasChildren": true
     }, {
         "assetId": "t2",
         "name": "CLN20LP",
