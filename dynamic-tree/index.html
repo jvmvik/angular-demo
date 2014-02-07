@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/tree.css"/>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://code.angularjs.org/1.2.9/angular.js"></script>
+</head>
+<body ng-app="tree">
+<h1>Tree Demo - Angular JS </h1>
+<p>Tree Dynamic loading </p>
+
+<div ng-controller="MyCtrl">
+<div style="float: left; width: 300px">
+    <ui-tree ng-model="assets" load-fn="loadChildren" expand-to="hierarchy" selected-id="1" attr-node-id="assetId">
+    </ui-tree>
+
+</div>
+
+
+<div id="view" style="float:left;">
+    <div>Selected: {{ selected.name }}</div>
+</div>
+</div>
+
+<script src="js/tree.js"></script>
+<script src="controller.js"></script>
+</body>
+</html>
