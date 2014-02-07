@@ -1,0 +1,38 @@
+/* tree */
+.uiTree {
+    list-style-type: none;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+
+.uiTree li a.icon {
+    display: inline-block;
+    width: 24px;
+    cursor: pointer;
+    vertical-align: text-bottom;
+}
+
+.uiTree li .node:hover > a.addChild {
+    display: inline-block;
+}
+
+.uiTree li a.addChild {
+    margin-left: 10px;
+    cursor: pointer;
+    display: none;
+    vertical-align: text-bottom;
+}
+
+.uiTree li .node {
+    padding-bottom: 5px;
+}
+
+.uiTree span.nodeLabel {
+    cursor: pointer;
+}
+
+.uiTree span.nodeLabel.selected {
+    border: 1px solid #aaa;
+    background-color: #ddd;
+    padding: 1px 3px;
+}
