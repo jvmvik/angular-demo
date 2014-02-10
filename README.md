@@ -1,7 +1,11 @@
 Angular-demo
 ============
 
-Experiment angular js...
+Experimenting angular only...
 
-Goals
+Examples:
+
  - Dynamic tree view in angular js
+
+
+Note: These is no back-end for these example. You might want to use IDE 13 for your development.
